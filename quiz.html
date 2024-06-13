@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1 align="center">Online Quiz</h1>
+    <form id="quiz-form">
+      <div class="question">
+        <p>1. Which is platform independent language?<br>
+        <label>
+          <input type="radio" name="q1" value="C++"> C++
+        </label><br>
+        <label>
+          <input type="radio" name="q1" value="C"> C
+        </label><br>
+        <label>
+          <input type="radio" name="q1" value="JAVA"> JAVA
+        </label><br>
+        <label>
+            <input type="radio" name="q1" value="PHP"> PHP
+          </label><br>
+        </p>
+      </div>
+      <div class="question">
+        <p>2. Which is class of all classes in JAVA?<br>
+        <label>
+          <input type="radio" name="q2" value="Object"> Object
+        </label><br>
+        <label>
+          <input type="radio" name="q2" value="Math"> Math
+        </label><br>
+        <label>
+          <input type="radio" name="q2" value="System"> System
+        </label><br>
+        <label>
+            <input type="radio" name="q2" value="GUI"> GUI
+          </label><br>
+        </p>
+      </div>
+      <div class="question">
+        <p>3. The correct sequence of HTML tags for starting a webpage is -<br>
+        <label>
+          <input type="radio" name="q3" value="C++"> Head, Title, HTML, body
+        </label><br>
+        <label>
+          <input type="radio" name="q3" value="C"> HTML, Body, Title, Head
+        </label><br>
+        <label>
+          <input type="radio" name="q3" value="JAVA"> HTML, Head, Title, Body
+        </label><br>
+        <label>
+            <input type="radio" name="q3" value="PHP"> HTML, Head, Title, Body....
+          </label><br>
+        </p>
+      </div>
+      <div class="question">
+        <p>4. How to create an unordered list (a list with the list items in bullets) in HTML?<br>
+        <label>
+          <input type="radio" name="q4" value="C++"> ul
+        </label><br>
+        <label>
+          <input type="radio" name="q4" value="C"> ol....
+        </label><br>
+        <label>
+          <input type="radio" name="q4" value="JAVA"> li
+        </label><br>
+        <label>
+            <input type="radio" name="q4" value="PHP"> i
+          </label><br>
+        </p>
+      </div>
+      <div class="question">
+        <p>5. input tag is -<br>
+        <label>
+          <input type="radio" name="q5" value="C++"> a format tag
+        </label><br>
+        <label>
+          <input type="radio" name="q5" value="C"> an empty tag....
+        </label><br>
+        <label>
+          <input type="radio" name="q5" value="JAVA"> All of the above
+        </label><br>
+        <label>
+            <input type="radio" name="q5" value="PHP"> None of the above
+          </label><br>
+        </p>
+      </div>
+      <div class="question">
+        <p>6. The hr tag in HTML is used for -<br>
+        <label>
+          <input type="radio" name="q6" value="C++"> new line
+        </label><br>
+        <label>
+          <input type="radio" name="q6" value="C"> vertical ruler
+        </label><br>
+        <label>
+          <input type="radio" name="q6" value="JAVA"> new paragraph
+        </label><br>
+        <label>
+          <input type="radio" name="q6" value="PHP"> horizontal ruler....
+          </label><br>
+        </p>
+      </div>
+      <div class="question">
+        <p>7. Which character is used to represent the closing of a tag in HTML?<br>
+        <label>
+          <input type="radio" name="q7" value="C++"> /....
+        </label><br>
+        <label>
+          <input type="radio" name="q7" value="C"> \
+        </label><br>
+        <label>
+          <input type="radio" name="q7" value="JAVA"> |
+        </label><br>
+        <label>
+          <input type="radio" name="q7" value="PHP"> .
+          </label><br>
+        </p>
+      </div>
+      <div class="question">
+        <p>8. Which of the following HTML attribute is used to define inline styles?<br>
+        <label>
+          <input type="radio" name="q8" value="C++"> style....
+        </label><br>
+        <label>
+          <input type="radio" name="q8" value="C"> type
+        </label><br>
+        <label>
+          <input type="radio" name="q8" value="JAVA"> class
+        </label><br>
+        <label>
+          <input type="radio" name="q8" value="PHP"> None of the above
+          </label><br>
+        </p>
+      </div>
+      <div class="question">
+        <p>9. A program in HTML can be rendered and read by -<br>
+        <label>
+          <input type="radio" name="q9" value="C++"> Web browser....
+        </label><br>
+        <label>
+          <input type="radio" name="q9" value="C"> Server
+        </label><br>
+        <label>
+          <input type="radio" name="q9" value="JAVA"> Interpreter
+        </label><br>
+        <label>
+          <input type="radio" name="q9" value="PHP"> None of the above
+          </label><br>
+        </p>
+      </div>
+      <div class="question">
+        <p>10. Which of the following are the attributes of the tag?<br>
+        <label>
+          <input type="radio" name="q10" value="C++"> method
+        </label><br>
+        <label>
+          <input type="radio" name="q10" value="C"> action
+        </label><br>
+        <label>
+          <input type="radio" name="q10" value="JAVA"> Both of the above....
+        </label><br>
+        <label>
+          <input type="radio" name="q10" value="PHP"> None of the above
+          </label><br>
+        </p>
+      </div>
+      
+  <button onclick="showAlert()">Click Me</button>
+
+  <script>
+    function showAlert() {
+      alert('Hey, You are in a quiz!!!');
+    }
+  </script>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
